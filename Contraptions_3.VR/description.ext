@@ -1,0 +1,84 @@
+author			= "j0nas";
+OnLoadName		= "Various Creations";
+OnLoadMission		= "Inside of the mind of j0nas";
+loadScreen		= "";
+
+disabledAI = true;
+
+corpseManagerMode = 1;
+corpseLimit = 15;
+corpseRemovalMinTime = 60; //seconds
+corpseRemovalMaxTime = 300; //seconds
+
+
+class Header
+{
+	gameType =  Sandbox; // Game type
+	minPlayers =  1; // minimum number of players the mission supports
+	maxPlayers = 99; // maximum number of players the mission supports
+};
+
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "Mission Completed";
+		subtitle = "";
+		description = "Please post to the AAR thread!";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End2
+	{
+		title = "Mission Failed";
+		subtitle = "";
+		description = "Please post to the AAR thread!";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End3
+	{
+		title = "Ending #3";
+		subtitle = "";
+		description = "Please post to the AAR thread!";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End4
+	{
+		title = "Ending #4";
+		subtitle = "";
+		description = "Please post to the AAR thread!";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End5
+	{
+		title = "Ending #5";
+		subtitle = "";
+		description = "Please post to the AAR thread!";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End6
+	{
+		title = "Ending #6";
+		subtitle = "";
+		description = "Please post to the AAR thread!";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+};

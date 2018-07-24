@@ -1,0 +1,38 @@
+// Smoke for FTLs, Squad Leaders, etc
+_glsmokewhite = "rhs_mag_m714_White";
+_glsmokegreen = "rhs_mag_m715_Green";
+_glsmokered = "rhs_mag_m713_Red";
+
+// Flares for FTLs, Squad Leaders, etc
+_glflarewhite = "rhs_mag_M585_white";
+_glflarered = "rhs_mag_m662_red";
+_glflareyellow = "rhs_mag_M585_white";
+_glflaregreen = "rhs_mag_m661_green";
+
+// Pistols (CO, DC, Automatic Rifleman, Medium MG Gunner)
+_pistol = "rhsusf_weap_glock17g4";
+_pistolmag = "rhsusf_mag_17Rnd_9x19_JHP";
+
+// Grenades
+_grenade = "HandGrenade";
+_Mgrenade = "MiniGrenade";
+_smokegrenade = "SmokeShell";
+_smokegrenadegreen = "SmokeShellGreen";
+_smokegrenadered = "SmokeShellRed";
+
+// Chemlights and Flares
+_chemgreen =  "Chemlight_green";
+_chemred = "ACE_Chemlight_HiRed";
+_chemyellow =  "ACE_Chemlight_HiWhite";
+_chemblue = "Chemlight_blue";
+_flaregreen = "ACE_HandFlare_Green";
+_flarered = "ACE_HandFlare_Red";
+
+"I_C_Soldier_Bandit_4_F",
+"I_C_Soldier_Bandit_3_F",
+"I_C_Soldier_Bandit_7_F",
+"I_C_Soldier_Bandit_5_F",
+"I_C_Soldier_Bandit_6_F",
+"I_C_Soldier_Bandit_2_F",
+"I_C_Soldier_Bandit_8_F",
+"I_C_Soldier_Bandit_1_F"

@@ -1,0 +1,147 @@
+// Generic
+this forceAddUniform "LOP_U_ISTS_Fatigue_12";
+this addVest "MNP_Vest_NZ_1";
+for "_i" from 1 to 3 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red";};
+for "_i" from 1 to 3 do {this addItemToVest "hlc_15Rnd_9x19_B_P226";};
+this addBackpack "rhsusf_assault_eagleaiii_coy";
+this addItemToBackpack "ACE_EarPlugs";
+this addItemToBackpack "ACE_DefusalKit";
+this addItemToBackpack "ACE_bloodIV";
+this addItemToBackpack "ACE_bloodIV_250";
+this addItemToBackpack "ACE_bloodIV_500";
+this addItemToBackpack "ACE_CableTie";
+this addItemToBackpack "ACE_epinephrine";
+this addItemToBackpack "ACE_IR_Strobe_Item";
+this addItemToBackpack "ACE_Clacker";
+this addItemToBackpack "ACE_Flashlight_XL50";
+this addItemToBackpack "ACE_MapTools";
+this addItemToBackpack "ACE_microDAGR";
+this addItemToBackpack "MineDetector";
+this addItemToBackpack "ACE_morphine";
+this addItemToBackpack "ACE_RangeCard";
+this addItemToBackpack "ACE_bodyBag";
+this addItemToBackpack "ACE_fieldDressing";
+this addItemToBackpack "ACE_Banana";
+this addHeadgear "rhsusf_opscore_ut";
+
+this addWeapon "rhs_weap_mk18_d";
+this addPrimaryWeaponItem "rhsusf_acc_anpeq16a";
+this addPrimaryWeaponItem "rhsusf_acc_ACOG_d";
+this addPrimaryWeaponItem "rhsusf_acc_grip3";
+this addWeapon "hlc_pistol_Mk25D";
+this addHandgunItem "hlc_acc_DBALPL";
+this addHandgunItem "HLC_Optic_Romeo1_RX";
+this addWeapon "Laserdesignator";
+
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc152_1";
+this linkItem "ItemGPS";
+this linkItem "A3_GPNVG18b_F";
+
+// Pilot
+
+this forceAddUniform "LOP_U_ISTS_Fatigue_05";
+for "_i" from 1 to 3 do {this addItemToUniform "hlc_30rnd_556x45_EPR";};
+this addVest "V_Chestrig_khk";
+this addHeadgear "rhsusf_hgu56p_visor_mask_black";
+
+this addWeapon "hlc_rifle_ACR_SBR_tan";
+this addPrimaryWeaponItem "rhsusf_acc_anpeq16a";
+this addPrimaryWeaponItem "rhsusf_acc_RX01_NoFilter";
+
+// GL + Facewear
+
+this forceAddUniform "LOP_U_ISTS_Fatigue_05";
+this addVest "MNP_Vest_NZ_1";
+this addItemToVest "1Rnd_HE_Grenade_shell";
+this addItemToVest "UGL_FlareWhite_F";
+this addItemToVest "UGL_FlareGreen_F";
+this addItemToVest "UGL_FlareRed_F";
+this addItemToVest "1Rnd_Smoke_Grenade_shell";
+this addItemToVest "1Rnd_SmokeRed_Grenade_shell";
+this addItemToVest "1Rnd_SmokeGreen_Grenade_shell";
+this addBackpack "B_Carryall_cbr";
+this addItemToBackpack "rhsusf_shemagh_tan";
+this addItemToBackpack "rhsusf_shemagh2_tan";
+this addItemToBackpack "rhsusf_shemagh_gogg_tan";
+this addItemToBackpack "rhsusf_shemagh2_gogg_tan";
+this addItemToBackpack "rhsusf_oakley_goggles_blk";
+this addItemToBackpack "rhsusf_oakley_goggles_clr";
+this addItemToBackpack "rhsusf_oakley_goggles_ylw";
+
+this addWeapon "rhs_weap_m4a1_blockII_M203_d";
+this addPrimaryWeaponItem "rhsusf_acc_anpeq16a";
+this addWeapon "Laserdesignator";
+
+// MG
+
+comment "Add containers";
+this addBackpack "B_Carryall_cbr";
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_250Rnd_762x51_T_MG3";};
+
+comment "Add weapons";
+this addWeapon "hlc_lmg_MG3KWS";
+this addPrimaryWeaponItem "rhsusf_acc_anpeq16a";
+this addPrimaryWeaponItem "rhsusf_acc_ELCAN";
+
+// Equipment
+
+this addBackpack "B_Carryall_cbr";
+this addItemToBackpack "ACE_Clacker";
+this addItemToBackpack "ACE_M26_Clacker";
+this addItemToBackpack "ACE_DeadManSwitch";
+this addItemToBackpack "DemoCharge_Remote_Mag";
+this addItemToBackpack "SatchelCharge_Remote_Mag";
+this addItemToBackpack "ACE_EarPlugs";
+this addItemToBackpack "ACE_DefusalKit";
+this addItemToBackpack "ACE_bloodIV";
+this addItemToBackpack "ACE_bloodIV_250";
+this addItemToBackpack "ACE_bloodIV_500";
+this addItemToBackpack "ACE_CableTie";
+this addItemToBackpack "ACE_epinephrine";
+this addItemToBackpack "ACE_IR_Strobe_Item";
+this addItemToBackpack "ACE_Clacker";
+this addItemToBackpack "ACE_Flashlight_XL50";
+this addItemToBackpack "ACE_MapTools";
+this addItemToBackpack "ACE_microDAGR";
+this addItemToBackpack "MineDetector";
+this addItemToBackpack "ACE_morphine";
+this addItemToBackpack "ACE_RangeCard";
+this addItemToBackpack "ACE_bodyBag";
+this addItemToBackpack "ACE_fieldDressing";
+this addItemToBackpack "ACE_Banana";
+
+_clacker = "ACE_M26_Clacker";
+_satchel = "SatchelCharge_Remote_Mag";
+_democharge = "DemoCharge_Remote_Mag";
+
+comment "Exported from Arsenal by j0nas";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CombatUniform_mcam";
+this addItemToUniform "Laserbatteries";
+
+comment "Add weapons";
+this addWeapon "UK3CB_BAF_Soflam_Laserdesignator";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "tf_anprc148jem_2";
+
+comment "Set identity";
+this setFace "WhiteHead_20";
+this setSpeaker "male06gre";

@@ -1,0 +1,18 @@
+// Misc Items
+_clacker = "ACE_Clacker";
+_defusal = "ACE_DefusalKit";
+_trenchtool = "ACE_EntrenchingTool";
+_strobe = "ACE_IR_Strobe_Item";
+_redchem = "ACE_Chemlight_HiRed";
+_sandbag = "ACE_Sandbag_empty";
+_detector = "MineDetector";
+_helddetector = "ACE_VMM3";
+_cgrenade = "rhs_mag_mk3a2";
+_flashbang ="rhs_mag_mk84";
+_slam ="SLAMDirectionalMine_Wire_Mag";
+
+FlagMarker_01_F
+
+_baseUniform = ["rhs_uniform_FROG01_wd"];
+_baseHelmet = ["rhsusf_opscore_paint_pelt_nsw_cam","rhsusf_opscore_paint_pelt_nsw","rhsusf_opscore_paint_pelt","rhsusf_opscore_paint","rhsusf_opscore_ut_pelt_nsw_cam","rhsusf_opscore_ut_pelt_nsw","rhsusf_opscore_ut_pelt"];
+_baseGlasses = ["rhs_googles_orange","rhs_googles_black","rhs_googles_yellow","rhs_googles_clear","rhsusf_oakley_goggles_blk","rhsusf_oakley_goggles_ylw","rhsusf_oakley_goggles_clr"];

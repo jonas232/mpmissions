@@ -1,0 +1,69 @@
+overviewPicture = "Img\Snapshot.jpg";
+onLoadName 		= Fireworks script-Showcase;
+author 			= ALIAS;									
+onLoadMission 	= Fireworks script - DEMO mission;
+loadScreen 		= "Img\Overlay.jpg";
+
+class CfgSounds
+{
+	class firework1
+	{
+		name = "firework1";
+		sound[] = {"\sound\firework1.ogg", db+30, 1};
+		titles[] = {1, ""};
+	};
+	class firework2
+	{
+		name = "firework2";
+		sound[] = {"\sound\firework2.ogg", db+30, 1};
+		titles[] = {1, ""};
+	};
+	class firework3
+	{
+		name = "firework3";
+		sound[] = {"\sound\firework3.ogg", db+30, 1};
+		titles[] = {1, ""};
+	};		
+	class fluier1
+	{
+		name = "fluier1";
+		sound[] = {"\sound\fluier1.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};
+	class fluier2
+	{
+		name = "fluier2";
+		sound[] = {"\sound\fluier2.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};	
+	class fluier3
+	{
+		name = "fluier3";
+		sound[] = {"\sound\fluier3.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};	
+	class fluier4
+	{
+		name = "fluier4";
+		sound[] = {"\sound\fluier4.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};
+	class fluier5
+	{
+		name = "fluier5";
+		sound[] = {"\sound\fluier5.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};	
+	class fluier6
+	{
+		name = "fluier6";
+		sound[] = {"\sound\fluier6.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};	
+	class fluier7
+	{
+		name = "fluier7";
+		sound[] = {"\sound\fluier7.ogg", db+15, 1};
+		titles[] = {1, ""};
+	};	
+};

@@ -1,0 +1,183 @@
+************************CLASS************************
+DemoCharge_F
+************************POSITION ATL************************
+[4862.03,1151.14,0]
+************************DIRECTION************************
+180
+************************SIZE************************
+[0.30545,0.084941,0.111747]
+************************SELECTION NAMES************************
+[]
+************************KIND OF************************
+N/A
+************************PARENTS************************
+["DemoCharge_F","MineBase","MineGeneric","Static","All"]
+************************MODEL INFO************************
+["c4_charge_small.p3d","a3\weapons_f\explosives\c4_charge_small.p3d",false]
+************************OBJECT TYPE************************
+8
+************************MATERIALS************************
+[]
+************************TEXTURES************************
+[]
+************************OBJECT PARENT************************
+<NULL-object>
+************************ANIMATION NAMES************************
+[]
+************************CLASS************************
+SatchelCharge_F
+************************POSITION ATL************************
+[4862.03,1151.14,0]
+************************DIRECTION************************
+180
+************************SIZE************************
+[0.271062,0.145744,0.431048]
+************************SELECTION NAMES************************
+[]
+************************KIND OF************************
+N/A
+************************PARENTS************************
+["SatchelCharge_F","MineBase","MineGeneric","Static","All"]
+************************MODEL INFO************************
+["satchel.p3d","a3\weapons_f\explosives\satchel.p3d",false]
+************************OBJECT TYPE************************
+8
+************************MATERIALS************************
+[]
+************************TEXTURES************************
+[]
+************************OBJECT PARENT************************
+<NULL-object>
+************************ANIMATION NAMES************************
+[]
+************************CLASS************************
+Explosive
+************************POSITION ATL************************
+[4282.82,4864.45,1.24563]
+************************DIRECTION************************
+2.3852e-009
+************************SIZE************************
+[0.177064,0.0527607,0.0525424]
+************************SELECTION NAMES************************
+["* non-planar faces","* cannot generate st coordinates"]
+************************KIND OF************************
+N/A
+************************PARENTS************************
+["Explosive","Small_items_NoInteractive","NonStrategic","Building","Static","All"]
+************************MODEL INFO************************
+["explosive.p3d","ca\misc2\explosive\explosive.p3d",false]
+************************OBJECT TYPE************************
+8
+************************MATERIALS************************
+[]
+************************TEXTURES************************
+[]
+************************OBJECT PARENT************************
+<NULL-object>
+************************ANIMATION NAMES************************
+[]
+
+
+// Engineer items
+_satchel = "DemoCharge_Remote_Mag";
+_clacker = "ACE_Clacker";
+_defusal = "ACE_DefusalKit";
+_trenchtool = "ACE_EntrenchingTool";
+_strobe = "ACE_IR_Strobe_Item";
+_redchem = "ACE_Chemlight_HiRed";
+_sandbag = "ACE_Sandbag_empty";
+_detector = "MineDetector";
+_helddetector = "ACE_VMM3";
+
+// Map Tools and MicroDAGR
+_navgps = "ACE_microDAGR";
+_navtools = "ACE_MapTools";
+
+// Extra items
+
+_snscope = "rhsusf_acc_M8541_low_d"
+_acog = "rhsusf_acc_ACOG_d"
+_holo = "rhsusf_acc_eotech_552_d"
+_m320 = "rhs_weap_M320"
+
+// Flares for FTLs, Squad Leaders, etc
+_glflarewhite = "rhs_mag_M585_white";
+_glflarered = "rhs_mag_m662_red";
+_glflareyellow = "3Rnd_UGL_FlareYellow_F";
+_glflaregreen = "rhs_mag_m661_green";
+
+// GENERAL EQUIPMENT USED BY MULTIPLE CLASSES
+
+// ATTACHMENTS - PRIMARY
+_attach1 = "rhsusf_acc_anpeq15_light";	// IR Laser
+_attach2 = "FHQ_acc_ANPEQ15";			// IR Laser
+
+_silencer1 = "ACE_muzzle_mzls_L";	// 5.56 suppressor
+_silencer2 = "rhsusf_acc_nt4_tan";		// 6.5 suppressor
+
+_scope1 = "optic_NVS";							// Holosight
+_scope2 = "optic_NVS";							// MRCO Scope - 1x - 6x
+_scope3 = "rhsusf_acc_premier_anpvs27";			// NV Sniper Scope
+
+_bipod1 = "rhsusf_acc_grip2_tan";		// Default bipod
+_bipod2 = "rhsusf_acc_harris_swivel";		// Black bipod
+
+
+
+// Radios
+
+"tf_anprc152_1";
+"tf_anprc155_coyote";
+
+// IED VEST SCRIPT DUMP: 
+
+	// Rotation
+	// X: 359
+	// Y: 270
+	// Z: 0.2
+
+		_expl1 = "Explosive" createVehicle position civ_trap_0; 
+		_expl1 attachTo [civ_trap_0, [-0.1, 0.15, 0.15], "Pelvis"]; 
+		_expl1 setVectorDirAndUp [ [0.5, 0.5, 0], [-0.5, 0.5, 0] ]; 
+		_expl2 = "Explosive" createVehicle position civ_trap_0; 
+		_expl2 attachTo [civ_trap_0, [0, 0.2, 0.15], "Pelvis"]; 
+		_expl2 setVectorDirAndUp [ [1, 0, 0], [0, 1, 0] ]; 
+		_expl3 = "Explosive" createVehicle position civ_trap_0; 
+		_expl3 attachTo [civ_trap_0, [0.1, 0.15, 0.15], "Pelvis"]; 
+		_expl3 setVectorDirAndUp [ [0.5, -0.5, 0], [0.5, 0.5, 0] ];
+		
+		uiSleep 30;
+		
+		deleteVehicle _expl1;
+		deleteVehicle _expl2;
+		deleteVehicle _expl3;
+		
+		waitUntil { not alive civ_trap_0 };
+		
+		
+Game: Arma 3
+Version: 1.76
+Build: 142872
+Branch: Stable
+Mods enabled: true
+Operating System: Windows
+Architecture: x64
+
+Resolution:
+Width: 1920
+Height: 1080
+UI Scale: 0.47
+
+      // Special cases
+      _specialist = ["vc", "pp", "eng", "engm", "div","uav"];
+	  
+	  // Set the list of units that get a rifleman's radio
+      _rifradio = ["ar","aar","rat","samag","mmgag","hmgag","matag","hatag","mtrag","sp","r","car","smg","gren","dmr"];
+
+      // Set the list of units that get a shortrange radio
+      _shortrange = ["co", "dc", "ftl", "m", "samg", "mmgg", "matg", "sn", "mtrg"];
+	  
+onLoadName = "Operation Armadillo";
+onLoadMission = "US Forces Rescue Operation in Benghazi, Libya";
+author = "j0nas (PA)";
+loadScreen = "loading.paa";

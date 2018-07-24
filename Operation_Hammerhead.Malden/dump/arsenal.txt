@@ -1,0 +1,143 @@
+CO/SL/FTL
+
+comment "Add containers";
+this forceAddUniform "rhs_uniform_FROG01_wd";
+this addItemToUniform "ACE_fieldDressing";
+this addItemToUniform "ACE_bloodIV_500";
+this addItemToUniform "ACE_bloodIV";
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_bodyBag";
+this addItemToUniform "ACE_DefusalKit";
+this addItemToUniform "ACE_epinephrine";
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_microDAGR";
+this addItemToUniform "ACE_morphine";
+this addVest "rhsusf_mbav_grenadier";
+this addItemToVest "rhsusf_mag_17Rnd_9x19_JHP";
+this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag";
+this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red";
+this addItemToVest "HandGrenade";
+this addItemToVest "MiniGrenade";
+this addItemToVest "SmokeShell";
+this addItemToVest "SmokeShellGreen";
+this addItemToVest "SmokeShellRed";
+this addItemToVest "ACE_HandFlare_White";
+this addItemToVest "ACE_HandFlare_Red";
+this addItemToVest "ACE_HandFlare_Green";
+this addItemToVest "ACE_HandFlare_Yellow";
+this addItemToVest "UGL_FlareWhite_F";
+this addItemToVest "UGL_FlareGreen_F";
+this addItemToVest "UGL_FlareRed_F";
+this addItemToVest "1Rnd_Smoke_Grenade_shell";
+this addItemToVest "1Rnd_SmokeRed_Grenade_shell";
+this addItemToVest "1Rnd_SmokeGreen_Grenade_shell";
+this addItemToVest "rhs_mag_M433_HEDP";
+this addItemToVest "rhs_mag_M441_HE";
+this addItemToVest "rhs_mag_m576";
+this addBackpack "tf_bussole";
+this addHeadgear "MNP_Beret_Green";
+this addGoggles "rhs_googles_black";
+comment "Add weapons";
+this addWeapon "rhs_weap_m4_m203";
+this addPrimaryWeaponItem "rhsusf_acc_wmx_bk";
+this addPrimaryWeaponItem "rhs_acc_1p87";
+this addWeapon "rhsusf_weap_glock17g4";
+this addHandgunItem "acc_flashlight_pistol";
+this addWeapon "Rangefinder";
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc152";
+this linkItem "ItemGPS";
+this linkItem "NVGoggles_OPFOR";
+
+MISC SHIT
+
+comment "Add containers";
+this forceAddUniform "rhs_uniform_FROG01_wd";
+this addItemToUniform "rhsusf_opscore_paint_pelt_nsw_cam";
+this addItemToUniform "rhs_m136_hedp_mag";
+this addVest "rhsusf_mbav_rifleman";
+this addItemToVest "rhsusf_opscore_paint_pelt_nsw";
+this addItemToVest "rhsusf_opscore_paint_pelt";
+this addItemToVest "rhsusf_opscore_paint";
+this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag";
+this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red";
+this addBackpack "B_Kitbag_cbr";
+this addItemToBackpack "ToolKit";
+this addItemToBackpack "ACE_wirecutter";
+this addItemToBackpack "ACE_UAVBattery";
+this addItemToBackpack "ACE_Sandbag_empty";
+this addItemToBackpack "MineDetector";
+this addItemToBackpack "ACE_EntrenchingTool";
+this addItemToBackpack "ACE_DefusalKit";
+this addItemToBackpack "ACE_Clacker";
+this addItemToBackpack "ACE_DAGR";
+this addItemToBackpack "rhsusf_opscore_ut_pelt_nsw_cam";
+this addItemToBackpack "rhsusf_opscore_ut_pelt_nsw";
+this addItemToBackpack "rhsusf_opscore_ut_pelt";
+this addGoggles "rhs_googles_orange";
+comment "Add weapons";
+this addWeapon "rhs_weap_m27iar_grip";
+this addPrimaryWeaponItem "rhsusf_acc_wmx_bk";
+this addPrimaryWeaponItem "rhsusf_acc_SpecterDR";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+this addWeapon "rhs_weap_M136_hedp";
+this addWeapon "Binocular";
+
+Breacher
+
+this forceAddUniform "rhs_uniform_FROG01_wd";
+this addVest "rhsusf_mbav_mg";
+this addItemToVest "rhsusf_8Rnd_00Buck";
+this addItemToVest "rhsusf_8Rnd_Slug";
+this addItemToVest "rhsusf_8Rnd_HE";
+this addItemToVest "rhsusf_8Rnd_doomsday_Buck";
+this addItemToVest "rhsusf_8Rnd_FRAG";
+this addItemToVest "rhs_mag_mk84";
+this addBackpack "B_Kitbag_cbr";
+this addItemToBackpack "DemoCharge_Remote_Mag";
+this addItemToBackpack "SatchelCharge_Remote_Mag";
+this addItemToBackpack "rhs_mag_mk3a2";
+this addHeadgear "rhsusf_opscore_mar_ut_pelt";
+this addGoggles "rhs_googles_yellow";
+this addWeapon "rhs_weap_M590_8RD";
+this linkItem "tf_anprc148jem_5";
+this linkItem "rhsusf_ANPVS_14";
+
+Medic
+
+this forceAddUniform "rhs_uniform_FROG01_wd";
+for "_i" from 1 to 3 do {this addItemToUniform "rhs_mag_30Rnd_556x45_M855_Stanag";};
+this addVest "rhsusf_mbav_light";
+this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag";
+this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red";
+this addBackpack "B_Carryall_cbr";
+this addHeadgear "H_Watchcap_khk";
+this addGoggles "rhs_googles_clear";
+this addWeapon "rhs_weap_mk18_bk";
+
+Crewman
+
+this forceAddUniform "rhs_uniform_FROG01_wd";
+this addItemToUniform "50Rnd_570x28_SMG_03";
+this addVest "rhsusf_mbav";
+this addBackpack "B_Kitbag_cbr";
+this addItemToBackpack "rhsusf_oakley_goggles_blk";
+this addItemToBackpack "rhsusf_oakley_goggles_ylw";
+this addItemToBackpack "rhsusf_oakley_goggles_clr";
+this addHeadgear "rhsusf_cvc_green_alt_helmet";
+this addWeapon "SMG_03C_black";
+
+this addBackpack "B_AssaultPack_blk";
+this addItemToBackpack "SLAMDirectionalMine_Wire_Mag";
+this addWeapon "ACE_VMH3";
+
+this forceAddUniform "rhs_uniform_FROG01_wd";
+this addItemToUniform "hlc_30Rnd_10mm_B_MP5";
+this addItemToUniform "rhsusf_mag_17Rnd_9x19_JHP";
+this addWeapon "hlc_smg_mp510";
+this addPrimaryWeaponItem "optic_Aco_smg";
+this addWeapon "rhsusf_weap_glock17g4";

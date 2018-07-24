@@ -1,0 +1,474 @@
+PMC 1
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerilla2_1";
+this addItemToUniform "ACE_fieldDressing";
+this addItemToUniform "ACE_bloodIV";
+this addItemToUniform "ACE_epinephrine";
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Clacker";
+this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_morphine";
+this addVest "MNP_Vest_NZ_1";
+for "_i" from 1 to 4 do {this addItemToVest "rhsusf_mag_17Rnd_9x19_FMJ";};
+this addItemToVest "30Rnd_556x45_Stanag";
+this addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiWhite";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiRed";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_HandFlare_Red";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_HandFlare_Green";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_mk84";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addHeadgear "rhsusf_opscore_ut_pelt";
+this addGoggles "rhs_googles_black";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m4a1_carryhandle_mstock";
+this addPrimaryWeaponItem "rhsusf_acc_ACOG";
+this addPrimaryWeaponItem "rhsusf_acc_grip3";
+this addWeapon "rhsusf_weap_glock17g4";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc152_1";
+this linkItem "ItemGPS";
+this linkItem "ACE_NVG_Gen4";
+
+PMC 2
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerilla2_1";
+for "_i" from 1 to 10 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Clacker";
+this addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 6 do {this addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 4 do {this addItemToUniform "ACE_epinephrine";};
+this addItemToUniform "ACE_DefusalKit";
+this addVest "MNP_Vest_NZ_1";
+for "_i" from 1 to 4 do {this addItemToVest "rhsusf_mag_17Rnd_9x19_FMJ";};
+for "_i" from 1 to 7 do {this addItemToVest "30Rnd_556x45_Stanag";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiWhite";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiRed";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_HandFlare_Red";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_HandFlare_Green";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_mk84";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addBackpack "tf_anprc155_coyote";
+this addHeadgear "rhsusf_opscore_ut_pelt";
+this addGoggles "rhs_googles_black";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m4a1_carryhandle_mstock";
+this addPrimaryWeaponItem "FHQ_acc_ANPEQ15_black";
+this addPrimaryWeaponItem "rhsusf_acc_eotech_552";
+this addPrimaryWeaponItem "rhsusf_acc_grip3";
+this addWeapon "rhsusf_weap_glock17g4";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc152_1";
+this linkItem "ItemGPS";
+this linkItem "ACE_NVG_Gen4";
+
+PMC MG
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerilla2_1";
+for "_i" from 1 to 10 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Clacker";
+this addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 6 do {this addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 4 do {this addItemToUniform "ACE_epinephrine";};
+this addItemToUniform "ACE_DefusalKit";
+this addVest "MNP_Vest_NZ_1";
+for "_i" from 1 to 4 do {this addItemToVest "rhsusf_mag_17Rnd_9x19_FMJ";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiWhite";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiRed";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_HandFlare_Red";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_HandFlare_Green";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_mk84";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addItemToVest "rhs_200rnd_556x45_M_SAW";
+this addBackpack "rhsusf_assault_eagleaiii_coy";
+this addItemToBackpack "rhs_200rnd_556x45_T_SAW";
+this addHeadgear "H_Cap_usblack";
+this addGoggles "G_Tactical_Black";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m249_pip_L";
+this addPrimaryWeaponItem "FHQ_acc_ANPEQ15_black";
+this addPrimaryWeaponItem "rhsusf_acc_ELCAN";
+this addWeapon "rhsusf_weap_glock17g4";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc152_1";
+this linkItem "ItemGPS";
+this linkItem "ACE_NVG_Gen4";
+
+PMC GL
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerilla2_1";
+for "_i" from 1 to 10 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Clacker";
+this addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 6 do {this addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 4 do {this addItemToUniform "ACE_epinephrine";};
+this addItemToUniform "ACE_DefusalKit";
+this addVest "MNP_Vest_NZ_1";
+for "_i" from 1 to 4 do {this addItemToVest "rhsusf_mag_17Rnd_9x19_FMJ";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiWhite";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiRed";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_HandFlare_Red";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_HandFlare_Green";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_mk84";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 3 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk318_Stanag";};
+this addItemToVest "rhs_mag_M441_HE";
+this addItemToVest "rhs_mag_M433_HEDP";
+this addItemToVest "rhs_mag_M585_white";
+this addItemToVest "rhs_mag_m661_green";
+this addItemToVest "rhs_mag_m662_red";
+this addHeadgear "rhsusf_opscore_ut_pelt";
+this addGoggles "rhs_googles_black";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m4a1_carryhandle_m203S";
+this addPrimaryWeaponItem "FHQ_acc_ANPEQ15_black";
+this addPrimaryWeaponItem "rhsusf_acc_eotech_552";
+this addWeapon "rhsusf_weap_glock17g4";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc152_1";
+this linkItem "ItemGPS";
+this linkItem "ACE_NVG_Gen4";
+
+PMC DMR
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerilla2_1";
+for "_i" from 1 to 10 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Clacker";
+this addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 6 do {this addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 4 do {this addItemToUniform "ACE_epinephrine";};
+this addItemToUniform "ACE_DefusalKit";
+this addVest "MNP_Vest_NZ_1";
+for "_i" from 1 to 4 do {this addItemToVest "rhsusf_mag_17Rnd_9x19_FMJ";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiWhite";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_Chemlight_HiRed";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_HandFlare_Red";};
+for "_i" from 1 to 2 do {this addItemToVest "ACE_HandFlare_Green";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_mk84";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addItemToVest "rhsusf_20Rnd_762x51_m118_special_Mag";
+this addItemToVest "rhsusf_20Rnd_762x51_m62_Mag";
+this addHeadgear "rhsusf_opscore_ut_pelt";
+this addGoggles "rhs_googles_black";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_sr25_ec";
+this addPrimaryWeaponItem "FHQ_acc_ANPEQ15_black";
+this addPrimaryWeaponItem "optic_AMS";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+this addWeapon "rhsusf_weap_glock17g4";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc152_1";
+this linkItem "ItemGPS";
+this linkItem "ACE_NVG_Gen4";
+
+US dump
+
+comment "Exported from Arsenal by j0nas";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "rhs_uniform_g3_tan";
+for "_i" from 1 to 8 do {this addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 14 do {this addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {this addItemToUniform "ACE_epinephrine";};
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Clacker";
+this addItemToUniform "ACE_microDAGR";
+this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_DefusalKit";
+this addVest "rhsusf_spc_teamleader";
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
+this addBackpack "tf_anprc155_coyote";
+this addHeadgear "rhsusf_mich_bare_norotos_arc_alt_tan";
+this addGoggles "G_Bandanna_khk";
+
+comment "Add weapons";
+this addWeapon "UK3CB_BAF_Soflam_Laserdesignator";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ACE_Altimeter";
+this linkItem "tf_anprc152_31";
+this linkItem "ItemGPS";
+this linkItem "NVGoggles_OPFOR";
+
+comment "Set identity";
+this setFace "WhiteHead_22_sa";
+this setSpeaker "ace_novoice";
+
+comment "Exported from Arsenal by j0nas";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CombatUniform_mcam";
+this addItemToUniform "FirstAidKit";
+for "_i" from 1 to 2 do {this addItemToUniform "30Rnd_65x39_caseless_mag";};
+this addItemToUniform "SmokeShell";
+this addItemToUniform "Chemlight_green";
+this addVest "V_BandollierB_rgr";
+this addItemToVest "30Rnd_65x39_caseless_mag";
+for "_i" from 1 to 2 do {this addItemToVest "11Rnd_45ACP_Mag";};
+this addItemToVest "SmokeShellGreen";
+this addItemToVest "Chemlight_green";
+this addHeadgear "H_Beret_Colonel";
+this addGoggles "G_Aviator";
+
+comment "Add weapons";
+this addWeapon "arifle_MXC_F";
+this addPrimaryWeaponItem "optic_Aco";
+this addWeapon "hgun_Pistol_heavy_01_F";
+this addHandgunItem "optic_MRD";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+this linkItem "ItemGPS";
+
+comment "Set identity";
+this setFace "WhiteHead_16";
+this setSpeaker "male02eng";
+
+EOD
+
+comment "Add containers";
+this forceAddUniform "U_B_CombatUniform_mcam";
+this addItemToUniform "FirstAidKit";
+for "_i" from 1 to 2 do {this addItemToUniform "30Rnd_65x39_caseless_mag";};
+this addVest "V_PlateCarrier1_rgr";
+for "_i" from 1 to 3 do {this addItemToVest "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+this addItemToVest "SmokeShell";
+this addItemToVest "SmokeShellGreen";
+this addItemToVest "SmokeShellBlue";
+this addItemToVest "SmokeShellOrange";
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+this addBackpack "UK3CB_BAF_B_Carryall_MTP";
+this addItemToBackpack "ACE_DefusalKit";
+this addItemToBackpack "ACE_EntrenchingTool";
+for "_i" from 1 to 4 do {this addItemToBackpack "ACE_IR_Strobe_Item";};
+this addItemToBackpack "ToolKit";
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_Sandbag_empty";};
+this addItemToBackpack "MineDetector";
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_SpraypaintBlack";};
+this addItemToBackpack "ACE_Clacker";
+for "_i" from 1 to 2 do {this addItemToBackpack "DemoCharge_Remote_Mag";};
+for "_i" from 1 to 4 do {this addItemToBackpack "ACE_Chemlight_HiRed";};
+this addHeadgear "H_HelmetB_light_sand";
+
+comment "Add weapons";
+this addWeapon "arifle_MX_F";
+this addPrimaryWeaponItem "acc_pointer_IR";
+this addPrimaryWeaponItem "optic_Holosight";
+this addWeapon "ACE_VMM3";
+
+
+comment "Exported from Arsenal by j0nas";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "MNP_CombatUniform_Ranger_A";
+for "_i" from 1 to 20 do {this addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 8 do {this addItemToUniform "ACE_epinephrine";};
+for "_i" from 1 to 10 do {this addItemToUniform "ACE_morphine";};
+this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_microDAGR";
+this addItemToUniform "ACE_DefusalKit";
+this addItemToUniform "ACE_Clacker";
+for "_i" from 1 to 4 do {this addItemToUniform "ACE_Chemlight_HiWhite";};
+for "_i" from 1 to 4 do {this addItemToUniform "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToUniform "rhs_mag_an_m8hc";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_HandFlare_Green";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_HandFlare_Red";};
+this addVest "MNP_Vest_Scorpion_2";
+for "_i" from 1 to 3 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk318_Stanag";};
+this addBackpack "B_AssaultPack_blk";
+this addItemToBackpack "ACE_Banana";
+this addItemToBackpack "ACE_SpraypaintBlack";
+this addItemToBackpack "ACE_bodyBag";
+this addItemToBackpack "ACE_CableTie";
+this addItemToBackpack "ACE_Cellphone";
+this addItemToBackpack "ACE_DeadManSwitch";
+this addItemToBackpack "ACE_UAVBattery";
+this addHeadgear "rhsusf_opscore_paint_pelt_nsw_cam";
+this addGoggles "G_Bandanna_beast";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m4";
+this addPrimaryWeaponItem "ACE_muzzle_mzls_L";
+this addPrimaryWeaponItem "rhsusf_acc_anpeq15_bk_light";
+this addPrimaryWeaponItem "optic_Arco_blk_F";
+this addPrimaryWeaponItem "rhsusf_acc_grip3";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc152_2";
+this linkItem "ItemGPS";
+this linkItem "ACE_NVG_Gen1";
+
+RHS DUMP
+
+comment "Add containers";
+this forceAddUniform "rhs_uniform_g3_tan";
+for "_i" from 1 to 8 do {this addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 14 do {this addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {this addItemToUniform "ACE_epinephrine";};
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Clacker";
+this addItemToUniform "ACE_microDAGR";
+this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_DefusalKit";
+this addVest "rhsusf_spc_patchless_radio";
+this addItemToVest "rhsusf_acc_eotech_552_d";
+this addItemToVest "rhsusf_acc_ACOG_d";
+this addItemToVest "optic_NVS";
+this addItemToVest "rhsusf_acc_anpeq15_light";
+this addItemToVest "rhsusf_acc_grip2_tan";
+this addItemToVest "ACE_muzzle_mzls_L";
+this addItemToVest "Laserbatteries";
+this addBackpack "rhsusf_assault_eagleaiii_coy";
+this addItemToBackpack "rhs_weap_m4a1_d_mstock_grip2";
+this addItemToBackpack "rhs_weap_m4a1_blockII_d";
+this addHeadgear "rhsusf_mich_bare_norotos_alt_tan";
+this addGoggles "G_Bandanna_khk";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m4a1_blockII_M203_d";
+this addWeapon "UK3CB_BAF_Soflam_Laserdesignator";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ACE_Altimeter";
+this linkItem "tf_anprc152_31";
+this linkItem "ItemGPS";
+this linkItem "rhsusf_Rhino";
+
+comment "Add containers";
+this forceAddUniform "rhs_uniform_g3_tan";
+for "_i" from 1 to 8 do {this addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 14 do {this addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {this addItemToUniform "ACE_epinephrine";};
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Clacker";
+this addItemToUniform "ACE_microDAGR";
+this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_DefusalKit";
+this addVest "V_Chestrig_khk";
+this addItemToVest "rhsusf_acc_M8541_low_d";
+this addItemToVest "rhsusf_10Rnd_762x51_m118_special_Mag";
+this addItemToVest "rhsusf_mag_17Rnd_9x19_JHP";
+this addItemToVest "Laserbatteries";
+this addBackpack "rhsusf_assault_eagleaiii_coy";
+this addHeadgear "rhsusf_mich_bare_norotos_alt_tan";
+this addGoggles "G_Bandanna_khk";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m40a5_d";
+this addPrimaryWeaponItem "FHQ_acc_ANPEQ15";
+this addPrimaryWeaponItem "rhsusf_acc_premier_anpvs27";
+this addPrimaryWeaponItem "rhsusf_acc_harris_swivel";
+this addWeapon "rhsusf_weap_glock17g4";
+this addWeapon "Rangefinder";
+
+comment "Add containers";
+this forceAddUniform "rhs_uniform_g3_tan";
+for "_i" from 1 to 8 do {this addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 14 do {this addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 6 do {this addItemToUniform "ACE_epinephrine";};
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addItemToUniform "ACE_Clacker";
+this addItemToUniform "ACE_microDAGR";
+this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_DefusalKit";
+this addVest "V_Chestrig_khk";
+this addItemToVest "rhsusf_acc_M8541_low_d";
+this addItemToVest "Laserbatteries";
+for "_i" from 1 to 3 do {this addItemToVest "rhs_mag_30Rnd_556x45_Mk318_Stanag";};
+for "_i" from 1 to 3 do {this addItemToVest "rhs_mag_M441_HE";};
+this addBackpack "rhsusf_assault_eagleaiii_coy";
+this addItemToBackpack "rhs_mag_M585_white";
+this addItemToBackpack "rhs_mag_m661_green";
+this addItemToBackpack "rhs_mag_m662_red";
+this addHeadgear "rhsusf_mich_bare_norotos_alt_tan";
+this addGoggles "G_Bandanna_khk";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_mk18_KAC_d";
+this addPrimaryWeaponItem "rhsusf_acc_nt4_tan";
+this addPrimaryWeaponItem "rhsusf_acc_anpeq15_light";
+this addPrimaryWeaponItem "optic_NVS";
+this addPrimaryWeaponItem "rhsusf_acc_grip2_tan";
+this addWeapon "rhs_weap_M320";
+this addWeapon "Rangefinder";

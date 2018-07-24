@@ -1,0 +1,33 @@
+#include "script\defines.hpp"
+
+#include "script\attachToGUI.hpp"
+// createDialog "TER_attach";
+#include "script\memPoints\memPointsGUI.hpp"
+// createDialog "TER_mem";
+#include "script\settings\TERsettings.hpp"
+// createDialog "TER_settings";
+#include "script\credits\TERcredits.hpp"
+// createDialog "TER_credits";
+
+class CfgFunctions
+{
+	class TER
+	{
+		class mainFnc
+		{
+			class updateP {file = "functions\updatePointer.sqf";};
+			class editString {file = "functions\editString.sqf";};
+			class camSwitch {file = "functions\camSwitch.sqf";};
+			class updateDir {file = "functions\updateDir.sqf"};
+			class findMemP {file = "functions\findMemP.sqf"};
+		};
+	};
+	class DREAD
+	{
+		class getCfg
+		{
+			class copyConfigClass {file = "functions\fn_copyConfigClass.sqf"};
+			// _textBoxClass = [configFile] call DREAD_fnc_copyConfigClass;
+		};
+	};
+};
