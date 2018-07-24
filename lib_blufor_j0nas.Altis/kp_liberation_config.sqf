@@ -28,7 +28,7 @@ KP_liberation_ace_crates = [
 	"ACE_medicalSupplyCrate_advanced"
 ];
 
-/* - Custom unit and arsenal preset settings. 
+/* - Custom unit and arsenal preset settings.
 If you want to change a preset, it's recommended to set all four presets to 0 and edit the appropriate custom.sqf files in the preset folders.*/
 
 /* BLUFOR preset:
@@ -41,7 +41,7 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 6 = RHS USAF (Woodland)
 7 = RHS USAF (Desert)
 8 = RHS AFRF (VDV/MSV) */
-KP_liberation_preset_blufor = 0;
+KP_liberation_preset_blufor = 6;
 
 /* OPFOR preset:
 0 = Custom (default vanilla CSAT)
@@ -50,7 +50,7 @@ KP_liberation_preset_blufor = 0;
 3 = Project OPFOR (Takistan)
 4 = Project OPFOR (Islamic State)
 5 = Project OPFOR (Sahrani) */
-KP_liberation_preset_opfor = 0;
+KP_liberation_preset_opfor = 5;
 
 /* Resistance preset:
 0 = Custom (default vanilla FIA)
@@ -58,7 +58,7 @@ KP_liberation_preset_opfor = 0;
 2 = RHS GREF
 3 = Project OPFOR (Middle Eastern)
 4 = Project OPFOR (Sahrani) */
-KP_liberation_preset_resistance = 0;
+KP_liberation_preset_resistance = 4;
 
 /* Civilians preset:
 0 = Custom (default vanilla)
@@ -73,7 +73,7 @@ KP_liberation_preset_civilians = 0;
 2 = Killah Potatoes Gaming Community arsenal preset.
 3 = RHS USAF arsenal preset.
 4 = RHS USAF arsenal preset with ACE.
-5 = RHS USAF arsenal preset with ACE and ACRE.	
+5 = RHS USAF arsenal preset with ACE and ACRE.
 6 = 3cbBAF and RHS USAF arsenal preset. */
 KP_liberation_arsenal = 0;
 
@@ -148,7 +148,7 @@ KP_liberation_resistance_sector_chance = 35;																	// Chance that a gu
 KP_liberation_resistance_ambush_chance = 25;																	// Chance that some guerilla units will spawn in blufor sectors for an ambush, if reputation is low.
 
 /* - Default arsenal blacklist method.
-Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.	
+Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.
 REMEMBER: All static turret and UAV bags should be defined here, to stop players from exploiting free resources via the virtual arsenal.	*/
 blacklisted_from_arsenal = [
 	"I_HMG_01_weapon_F",
