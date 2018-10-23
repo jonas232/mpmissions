@@ -1,0 +1,99 @@
+showMap = 1;
+showGPS = 0;
+debriefing = 0;
+showRadio = 1;
+
+author = "Sarge Studio | Lenz";
+onLoadName = "Spectrum control";
+onLoadMission = "Spectrum control";
+overviewText = "Light them up!";
+loadScreen = "pic\w.pac";
+//enabledebugconsole = 2;
+
+respawn = 2;
+respawnDelay = 5;
+
+class CfgSounds
+{
+	sounds[] = {};
+
+	class Boom
+	{
+		name = "Boom";
+		sound[] = {"\sound\boom.ogg", db+00, 1.0};
+		titles[] = {};
+	};
+	class HS1
+	{
+		name = "HS1";
+		sound[] = {"\sound\HS1.ogg", db+00, -1.0};
+		titles[] = {};
+	};
+};
+
+class CfgMusic
+{
+	Musics[] = {};
+
+	/*class RoundStart
+	{
+		name = "RFaD - Supermarket Sweep";
+		sound[] = {"\music\Supermarketsweep.ogg", db+0, 1.0};
+		titles[] = {};
+	};*/
+};
+/*
+class RscTitles
+{
+	#include "display.hpp"
+};
+*/
+class Params
+{
+	class SGS_FinalPoint
+	{
+		title = "Match point";
+		values[] = {3,5,10};
+		texts[] = {"50","100","200","300","400","500"};
+		default = 100;
+	};
+	class SGS_WarmUp
+	{
+		title = "Warm - Up time";
+		values[] = {0,60,120,300};
+		texts[] = {"0","60","120","300"};
+		default = 60;
+	};
+};
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "BLUE TEAM WON";
+		subtitle = "END OF THE MATCH";
+		description = "";
+		pictureBackground = "pic\w.pac";
+	};
+	class End2
+	{
+		title = "RED TEAM WON";
+		subtitle = "END OF THE MATCH";
+		description = "";
+		pictureBackground = "pic\w.pac";
+	};
+	class End3
+	{
+		title = "GREEN TEAM WON";
+		subtitle = "END OF THE MATCH";
+		description = "";
+		pictureBackground = "pic\w.pac";
+	};
+	class End4
+	{
+		title = "PURPLE TEAM WON";
+		subtitle = "END OF THE MATCH";
+		description = "";
+		pictureBackground = "pic\w.pac";
+	};
+};

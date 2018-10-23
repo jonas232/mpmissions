@@ -1,0 +1,188 @@
+author = "Rydygier";
+onLoadName = "Pilgrimage 1.95";
+onLoadMission = "Find the place where your brother was killed, and take his body home.";
+overviewText = "Free roaming, semi-randomized open single player mission with optional plot to follow. Your task is to find the body of your brother who was killed on Altis several hours ago. Position of the body is unknown, randomized each play. Same for starting location and enemy presence. On the island a civil war has just burned out. It's become a hostile place, full of marauders and mercenaries who are out of control acting like bandits and terrorising the country. Ask the locals, interrogate prisioners, loot bodies and buildings, find a vehicle. Use every opportunity and all means to locate the body and get out it of there. Good luck!";
+overviewPicture = "Pic\Pilgrim1c.paa";
+loadScreen = "Pic\Pilgrim1c.paa";
+
+class CfgCommunicationMenu
+	{
+	class PilgrimWait
+		{
+		text = "Wait one hour";
+		submenu = "";
+		expression = "nul = [] spawn RYD_JR_Wait;";
+		icon = "";
+		cursor = "";
+		enable = "1";
+		removeAfterExpressionCall = 0;
+		};
+		
+	class PilgrimWait6
+		{
+		text = "Wait six hours";
+		submenu = "";
+		expression = "nul = [] spawn RYD_JR_WaitSix;";
+		icon = "";
+		cursor = "";
+		enable = "1";
+		removeAfterExpressionCall = 0;
+		};
+		
+	class PilgrimClean
+		{
+		text = "Clean up bodies and wrecks";
+		submenu = "";
+		expression = "nul = [] spawn RYD_JR_GraveDiggerForced";
+		icon = "";
+		cursor = "";
+		enable = "1";
+		removeAfterExpressionCall = 0;
+		};
+		
+	class PilgrimAS
+		{
+		text = "Switch periodic autosave every 20 minutes";
+		submenu = "";
+		expression = "nul = [] spawn RYD_JR_AutoSave";
+		icon = "";
+		cursor = "";
+		enable = "1";
+		removeAfterExpressionCall = 0;
+		};
+		
+	class PilgrimFT
+		{
+		text = "Switch fatigue effects for Alex' group";
+		submenu = "";
+		expression = "nul = [] spawn RYD_JR_FatigueSwitch";
+		icon = "";
+		cursor = "";
+		enable = "1";
+		removeAfterExpressionCall = 0;
+		};
+	};
+	
+class CfgDebriefingSections
+	{
+	class PilgrimStats
+		{
+		title = "Pilgrimage summary";
+		variable = "RYD_JR_stats";
+		};
+	};
+	
+class CfgSounds
+	{
+	sounds[] = {};
+	class static1
+		{
+		name = "static1";
+		sound[] = {"Snd\static1.ogg", 1, 1, 30};
+		titles[] = {};
+		};
+		
+	class clickSoft2
+		{
+		name = "clickSoft2";
+		sound[] = {"Snd\click.wss", 0.025, 1};
+		titles[] = {};
+		};
+		
+	class hbeat
+		{
+		name = "hbeat";
+		sound[] = {"Snd\hb.ogg", 1, 1};
+		titles[] = {};
+		};
+		
+	class ring
+		{
+		name = "ring";
+		sound[] = {"Snd\ringtone.ogg", 0.25, 1,30};
+		titles[] = {};
+		};
+		
+	class sonar
+		{
+		name = "sonar";
+		sound[] = {"Snd\sonar.ogg", 0.25, 1,30};
+		titles[] = {};
+		};
+		
+	class short
+		{
+		name = "short";
+		sound[] = {"Snd\short.ogg", 0.25, 1,30};
+		titles[] = {};
+		};
+		
+	class endTalk
+		{
+		name = "endTalk";
+		sound[] = {"Snd\endTalk.ogg", 1, 1,30};
+		titles[] = {};
+		};
+		
+	class break
+		{
+		name = "break";
+		sound[] = {"Snd\break.ogg", 1, 1,30};
+		titles[] = {};
+		};
+	};
+	
+class CfgMusic
+	{
+	tracks[]={};
+
+	class Sareri
+		{
+		name = "SareriFull";
+		sound[] = {"Snd\SareriFull.ogg", db+0, 1};
+		};
+	};
+	
+class RscPicture
+	{
+	type = 0;
+	IDC = -1;
+	style = 48+0x800;
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {1,1,1,1};
+	font = "PuristaMedium";
+	SizeEx = 0;
+	};
+
+class RscTitles
+	{
+	titles[] = {};
+
+	class PIL_LOGO
+		{
+		name = "PIL_LOGO";
+		duration = 10000000;
+		FadeIn = 0;
+		IDD = -1;
+		MovingEnable = false;
+		onLoad = "";
+
+		controls[] = {pil_logo1};
+
+		class pil_logo1 : RscPicture
+			{
+			text = "Pic\PIL_LOGO.paa";
+			//x = safezoneX;
+			//y = safezoneY;
+			//w = safezoneW;
+			//h = safezoneH;
+			x = -0.25;
+			y = -0.25;
+			w = 1.5;
+			h = 1.5;
+			};
+		};
+	};
+	
+#include "GUI.hpp"
+

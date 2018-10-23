@@ -1,0 +1,1 @@
+hint format ["You have: %1 ff",RYD_JR_FuelFund];

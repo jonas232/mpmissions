@@ -1,0 +1,1 @@
+[] spawn RYD_JR_HideoutTravel;
